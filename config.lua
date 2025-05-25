@@ -33,7 +33,7 @@ Config.Organizations = {
     vagos = {
         label     = "Vagos",                   -- Display name
         society   = "society_vagos",           -- Database identifier
-        color     = { r = 255, g = 215, b = 0},-- Blip RGB color
+        color     = { r = 255, g = 215, b = 0},-- Organization RGB color
         blipColor = 5,                         -- Blip color ID
 
         -- Key locations (boss menu, safe, garage, vehicle spawn)
