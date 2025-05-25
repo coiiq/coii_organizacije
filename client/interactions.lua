@@ -33,7 +33,7 @@ exports.ox_target:addGlobalPlayer({
     {
         name = 'org_tie',
         icon = 'fa-solid fa-user-lock',
-        label = 'Zavezi',
+        label = 'Tie',
         distance = 2.0,
         items = Config.RopeItem,
         canInteract = function(entity)
@@ -47,7 +47,7 @@ exports.ox_target:addGlobalPlayer({
     {
         name = 'org_untie',
         icon = 'fa-solid fa-user-check',
-        label = 'Odvezi',
+        label = 'Untie',
         distance = 2.0,
         items = Config.RopeItem,
         canInteract = function(entity)
