@@ -10,7 +10,7 @@ RegisterNetEvent('org:tiePlayerServer', function(targetId)
     local targetDiscord = getIdentifiers(targetId)
 
     sendDiscordLog(
-        '👮‍♂️ Igrac zavezan',
+        '👮‍♂️ Player Tied',
         ('**%s** (%s) tied **%s** (%s)')
         :format(xPlayer.getName(), sourceDiscord, targetPlayer.getName(), targetDiscord),
         16711680
