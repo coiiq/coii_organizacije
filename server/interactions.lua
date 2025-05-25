@@ -11,7 +11,7 @@ RegisterNetEvent('org:tiePlayerServer', function(targetId)
 
     sendDiscordLog(
         '👮‍♂️ Igrac zavezan',
-        ('**%s** (%s) je zavezao **%s** (%s)')
+        ('**%s** (%s) tied **%s** (%s)')
         :format(xPlayer.getName(), sourceDiscord, targetPlayer.getName(), targetDiscord),
         16711680
     )
@@ -29,8 +29,8 @@ RegisterNetEvent('org:untiePlayerServer', function(targetId)
     local targetDiscord = getIdentifiers(targetId)
 
     sendDiscordLog(
-        '🤝 Igrac odvezan',
-        ('**%s** (%s) je odvezao **%s** (%s)')
+        '🤝 Player Untied',
+        ('**%s** (%s) untied **%s** (%s)')
         :format(xPlayer.getName(), sourceDiscord, targetPlayer.getName(), targetDiscord),
         65280
     )
